@@ -3,3 +3,6 @@ Git is distributed control system. Means the entire file history is stored in th
 and v2 both are same.Then git refers to v2 by v1 (no new reference is created).And it hashes the snapshot and use SHA hash(hashing occurs 
 depends on file directories).
 Any change to file has three stages :-
+-> Untrack (but git has eye on this)
+-> add (tracked -- Snap shots recorded)
+-> Commit (Saved--)
