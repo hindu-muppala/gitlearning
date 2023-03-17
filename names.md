@@ -32,5 +32,26 @@ When a project at a time that you want to share,you have to push it to upstream
 
 `git push orgin main`- saying to orgin server,please merge my local main branch in your `main` branch
 
+## What happens when commit?
+Let consider three files to stagged and committed . Since we know that git records snap shots not difference. It will create meta data and objects.
 
+Objects such that :- let understand by example , in our case a root object is created which has reference to three files information, and three objects of the file and meta data which has information.
+![image](https://user-images.githubusercontent.com/120579608/225814224-52cf73de-e42a-4321-b770-f9cd67ad7f33.png)
 
+![image](https://user-images.githubusercontent.com/120579608/225814525-1883795b-4a05-4efa-bfc9-cf76a74208fc.png)
+
+## Let talk about branching
+The default is master, but it is like other branches only.When we create new branch , it will refers to the present commit.
+
+![image](https://user-images.githubusercontent.com/120579608/225816610-ce26e1db-9b9a-43f0-9901-a3c44c4dca29.png)
+ `git log --oneline --decorate` --> once run to know the branch references
+ 
+ `git branch testing` --> creates new branch testing
+ 
+ `git checkout testing` --> moves `head` pointer to the branch
+ 
+ ![image](https://user-images.githubusercontent.com/120579608/225817252-52f3c24e-8e16-4815-a22f-5ac3e5afcb54.png)
+ 
+ ![image](https://user-images.githubusercontent.com/120579608/225817369-d3b23dc1-48f9-4996-a1f5-bbe2214b1ecf.png)
+
+git log --oneline --decorate --graph --all
