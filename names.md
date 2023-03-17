@@ -16,5 +16,9 @@ orgin - ` default server name that you have cloned`
 
 Pulls the data from the remote that you don't have yet and you can able to merge your branches since you have references
 
+`git remote rename x y `
+
+'git remote remove x`
+
 
 
