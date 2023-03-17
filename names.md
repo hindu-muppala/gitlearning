@@ -20,5 +20,17 @@ Pulls the data from the remote that you don't have yet and you can able to merge
 
 'git remote remove x`
 
+Why push?
+Since I will work locally, to update my git repo in git server simple..
+
+When to use gitpull
+`git pull`
+
+## Now talk about upstream
+
+When a project at a time that you want to share,you have to push it to upstream
+
+`git push orgin main`- saying to orgin server,please merge my local main branch in your `main` branch
+
 
 
