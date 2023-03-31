@@ -12,5 +12,8 @@ git reset HEAD CONTRIBUTING.md
  git checkout -- CONTRIBUTING.md
  | git restore --staged| staged to unstaged | git reset --staged contibute.md|
  | git mv file1 file2 |
- | git restore | replaces with `last staged` or `commited`
- 
+ | git restore | replaces with `last staged` or `commited`|
+ | `git branch -d branchName` | Deleteing the branch ||'
+ | `git branch branchName` |||
+ | `git checkout branchName ` |||
+ | `git checkout -b branchName ` |||
