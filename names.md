@@ -58,10 +58,20 @@ git log --oneline --decorate --graph --all
 ## Now about "merging"
 ### forward merging (direct ancestor)
 ![image](https://user-images.githubusercontent.com/120579608/229003367-84e87e63-2d4f-4531-8980-a8dd64e8c990.png)
+```
+git checkout master
+```
+```
+git merge hotfix
+
+```
+Since , the issue53 is forward to master. Master will get pointed to issue53
+
 ![image](https://user-images.githubusercontent.com/120579608/229003468-4e658fea-eb92-41fb-9df1-ccd9e0c26673.png)
 
 
 ### recursive merging (common ansector)
 ![image](https://user-images.githubusercontent.com/120579608/229003140-a67baf5c-b71c-4d9b-a6a8-47f551db9b0d.png)
+Since the master and issue53 are not direct branches, new commit is created by comparing the snapshots of both branches. If branches are clear they will be no merge confilts.
 ![image](https://user-images.githubusercontent.com/120579608/229003549-100f0413-3917-435e-996e-4edb324b9d28.png)
 
