@@ -17,3 +17,9 @@ git reset HEAD CONTRIBUTING.md
  | `git branch branchName` |||
  | `git checkout branchName ` |||
  | `git checkout -b branchName ` |||
+ |`git branch` | list all branches| |
+ | `git merge branchname`|
+ | 'git fetch` |
+ | `git --move br1 br2` | rename branch1 to branch2 |
+ | `git push remoteUrl branch` | pushing local branch to remote repository|
+ 
