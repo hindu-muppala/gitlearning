@@ -1,5 +1,5 @@
 # Distributed control system
-Git is distributed control system. Means the entire file history is stored in the local system. Means every time we clone
+Git is distributed control system.Means the entire file history is stored in the local system. Means every time we clone
 ,we are cloning the entire repository history.Git stores the snapshot of files when commited instead of differences.Means if a file has v1
 and v2 both are same.Then git refers to v2 by v1 (no new reference is created).And it hashes the snapshot and use SHA hash(hashing occurs 
 depends on file directories).
